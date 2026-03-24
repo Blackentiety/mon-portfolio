@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Presentation from "@/components/Presentation";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
           <Navbar />
           <main>
               <Presentation />
+              <Projects />
           </main>
       </div>
   );
